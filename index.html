@@ -13,9 +13,9 @@
   <header class="header container">
     <nav>
       <ul class="header_menu">
-        <li><a class="header_link" href="about">About</a></li>
-        <li><a class="header_link" href="featured">Projects</a></li>
-        <li><a class="header_link" href="contact">Contact</a></li>
+        <li><a class="header_link" href="#about">About</a></li>
+        <li><a class="header_link" href="#project">Projects</a></li>
+        <li><a class="header_link" href="#contact">Contact</a></li>
         <li class="header_line"></li>
         <li>
           <button class="header_sun">
@@ -48,7 +48,7 @@
       <p class="hero_description">"To get something you <strong>never had,</strong> you have to do something you <strong>never did.</strong>"</p>
       <a class="hero_btn btn" href="#">My Personal blog</a>
     </section>
-    <section class="about container section">
+    <section id="about" class="about container section">
       <div class="about_content">
         <h2 class="about_title">About</h2>
         <p class="about_description">
@@ -76,17 +76,17 @@
         <img class="about_img" src="/profile2.png" alt="profile pic">
       </div>
     </section>
-    <section class="featured container section">
+    <section id="project" class="featured container section">
       <h3 class="ftrd_subtitle">Featured projects</h3>
       <div class="ftrd_wrapper">
         <h2 class="ftrd_title">CQ-STEEL</h2>
-        <a href="https://github.com/thedoynewton" class="ftrd_link">
+        <!-- <a href="https://github.com/thedoynewton" class="ftrd_link">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round"
               d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
           </svg>
-        </a>
+        </a> -->
       </div>
       <p class="ftrd_description">
         This project can let the owner stock its products then sell it online. It has an inventory system and a dashboard to monitor its stocks. 
@@ -140,8 +140,17 @@
       </div>
     </section>
     <section class="prj container section">
-      <h2 class="prj_title">Projects</h2>
-      <p class="prj_description">These are my projects</p>
+      <div class="prj_wrapper">
+        <h2 class="prj_title">Projects</h2>
+        <a href="https://github.com/thedoynewton" class="prj_link">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+          </svg>
+        </a>
+      </div>
+      <p class="prj_description"></p>
       <div class="prj_container">        
                             <!-- PROJECT 1 -->
         <h3 class="prj_project-title">COLOR FLIPPER</h3>
@@ -190,9 +199,10 @@
         </div> -->
       </div>
     </section>
-    <section class="contact container section">
+    <section id="contact" class="contact container section">
       <h2 class="contact_title">Get in Touch</h2>
-      <p class="contact_description">Feel free to message me anytime and I will reply to you as soon as possible</p>
+      <p class="contact_description">Feel free to message me anytime and I will reply to you as soon as possible. <br>
+      Click the <strong>button</strong> to message me.</p>
       <a 
       class="contact_btn btn"
       href="mailto:diosdado.isaac.ramos@gmail.com" 
