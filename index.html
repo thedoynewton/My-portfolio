@@ -1,13 +1,59 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dev server</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="./src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header class="header container">
+    <nav>
+      <ul class="header_menu">
+        <li><a class="header_link" href="about">About</a></li>
+        <li><a class="header_link" href="featured">Work</a></li>
+        <li><a class="header_link" href="contact">Contact</a></li>
+        <li class="header_line"></li>
+        <li>
+          <button class="header_sun">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+            </svg>
+
+          </button>
+        </li>
+        <li>
+          <a class="header_resume btn" href="#">Resume</a>
+        </li>
+      </ul>
+      <button class="header_bars">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+      </button>
+    </nav>
+  </header>
+  <main>
+    <section class="hero container">
+    </section>
+    <section class="about container section">
+    </section>
+    <section class="featured container section">
+    </section>
+    <section class="work container section">
+    </section>
+    <section class="contact container section"></section>
+  </main>
+  <footer></footer>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+
 </html>
